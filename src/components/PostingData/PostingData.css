@@ -1,0 +1,125 @@
+.post-header>h1{
+    display: block;
+    color: rgb(66, 55, 77);
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgb(179, 179, 179);
+}
+label{
+    margin:0;
+    padding-left:10px ;
+}
+.post-header{
+    padding:0;
+    margin:0;
+}
+#formData{
+    width:50%;
+    margin:20px auto 10px auto;
+    padding: 0;
+    box-shadow: 0px 2px 8px rgb(65, 65, 65);
+    background-color: rgb(81, 67, 95);
+    font-size: 20px;
+}
+#formData>div{
+    width:90%;
+    background-color: rgb(255, 255, 255);
+    margin-left:auto;
+    padding:1rem;
+    text-shadow: 2px 2px 2px rgb(201, 201, 201);
+
+}
+section{
+    margin: 20px 0px 10px 0px;
+}
+.Job-Type{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.Job-Type>label{
+    margin: 0 10% 0 10%;
+    cursor: pointer;
+}
+input[type=radio]{
+    width:20px;
+    height:20px;
+    margin-left:6px;
+}
+input[type=text] {
+    width: 100%;
+    display: inline-block;
+    border:none;
+    box-sizing: border-box;
+    padding:5px 10px 5px 5px;
+    margin: 4px;
+    font-size: 18px;
+    outline: none;
+    box-shadow:inset 0px -2px 2px rgb(137, 113, 160);
+    transition: 0.5s ease;
+  }
+  input[type=text]:hover{
+    box-shadow:inset 0px 0px 4px rgb(137, 113, 160);
+  }
+  textarea{
+      resize: none;
+      width: 100%;
+      height:200px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      padding: 10px;
+    border-top:none;
+    box-shadow:inset 0px -2px 4px rgb(137, 113, 160);
+      outline: none;
+      transition: 0.5s ease;
+
+  }
+  textarea:hover{
+    box-shadow:inset 0px 0px 4px rgb(137, 113, 160);
+
+  }
+.upload{
+    outline: none;
+    border:none;
+    background-color: rgb(95, 79, 112);
+    padding: 1rem;
+    margin:0 auto 0 auto;
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 30px;
+    color:white;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow:0px 2px 4px rgb(0, 0, 0);
+
+}
+.upload:hover{
+    background-color: rgb(81, 68, 94);
+    outline: none;
+    border:none
+}
+.upload:active{
+    transform: scale(0.98);
+    transition: all 0.3s ease-out;
+}
+@media only screen and (max-width: 600px){
+    textarea{
+        height: 150px;
+        width: 100%;
+    }
+    #formData{
+        width:90%;
+    }
+    .post-header>h1{
+        font-size: 30px;
+    }
+    button{
+    width:80%;
+    }
+}
